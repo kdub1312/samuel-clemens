@@ -1,0 +1,17 @@
+/*
+ Theme Name:   Samuel Clemens
+ Description:  Twenty Sixteen Child Theme for All District
+ Author:       Kevin Wagner
+ Author URI:   http://alldistrict.net
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentysixteenchild-ad
+*/
+.widget {
+    border-top: 4px solid #f0f0f0;
+    margin-bottom: 3.5em;
+    padding-top: 1.75em;
+}body { background: #f0f0f0 !important; }
