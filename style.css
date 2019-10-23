@@ -14,4 +14,11 @@
     border-top: 4px solid #f0f0f0;
     margin-bottom: 3.5em;
     padding-top: 1.75em;
-}body { background: #f0f0f0 !important; }
+}
+body { background: #f0f0f0 !important; }
+button, button[disabled]:hover, button[disabled]:focus, input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
+    background: #2876A1;
+}
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+    background: #56B64B;
+}
