@@ -25,3 +25,6 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
 body {
     color: aqua !important;/*for a git test*/
 }
+.site-title a {
+    font-size: 36px !important;
+}
