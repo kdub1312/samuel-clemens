@@ -28,3 +28,7 @@ body {
 .site-title a {
     font-size: 48px !important;
 }
+.entry-header {
+    border: 2px solid red;
+    border-radius: 3px;
+}
