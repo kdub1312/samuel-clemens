@@ -2,23 +2,6 @@
 /* Template Name: Alt Colors Template */
 
 get_header(); ?>
-<style>
-    #main {
-        background-color: lightgoldenrodyellow !important;
-    }
-    .search-submit {
-        background-color: pink;
-    }
-    .search-submit:hover {
-        background-color: royalblue;
-    }
-    input[type="search"].search-field:focus {
-        background-color: black;
-        color: lawngreen;
-        font-family: sans-serif;
-    }
-    
-</style>
 <div id="primary" class="content-area">
 	<main id="main" class="site-main" role="main">
 	    <p style="color: navy;">THIS LINE OF TEXT IS COMING FORM THE ALT COLORS TEMPLATE!!!</p>

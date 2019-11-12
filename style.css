@@ -22,9 +22,9 @@ button, button[disabled]:hover, button[disabled]:focus, input[type="button"], in
 button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
     background: #56B64B;
 }
-body {
-    color: aqua !important;/*for a git test*/
+body .site {
+    margin: 0;
 }
-.site-title a {
-    font-size: 48px !important;
+body:not(.custom-background-image):before {
+    height: 0;
 }
