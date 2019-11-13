@@ -25,10 +25,3 @@ button:hover, button:focus, input[type="button"]:hover, input[type="button"]:foc
 body {
     color: aqua !important;/*for a git test*/
 }
-.site-title a {
-    font-size: 48px !important;
-}
-.entry-header {
-    border: 2px solid red;
-    border-radius: 3px;
-}
