@@ -28,4 +28,8 @@ body .site {
 body:not(.custom-background-image):before {
     height: 0;
 }
+<<<<<<< HEAD
 /*a small change to divert history*/
+=======
+/*THIS IS A TEST COMMENT FOR MY LOCAL REPOSITORY ON THE IMAC*/
+>>>>>>> fa93570fd9fac1a130f054f4ec4be193e56245f2
