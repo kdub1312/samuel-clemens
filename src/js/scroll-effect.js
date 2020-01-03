@@ -1,0 +1,1 @@
+var secondOne = 'second variable';
