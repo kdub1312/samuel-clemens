@@ -28,11 +28,3 @@ body .site {
 body:not(.custom-background-image):before {
     height: 0;
 }
-/*a small change to divert history*/
-/*THIS IS A TEST COMMENT FOR MY LOCAL REPOSITORY ON THE IMAC*/
-body {
-    color: aqua !important;/*for a git test*/
-}
-.fake-global-style {
-    /*a fake style declaration to test out git stash*/
-}
