@@ -12,3 +12,10 @@ function my_theme_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 }
+
+// Override the parent theme fonts
+add_action('wp_enqueue_scripts', 'twentysixteen_fonts_url');
+function twentysixteen_fonts_url() {
+    $fonts_url = 'https://fonts.googleapis.com/css?family=Gayathri|Nunito|Oswald&display=swap';
+	return $fonts_url;
+}
