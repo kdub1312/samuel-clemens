@@ -53,6 +53,7 @@ select,
 textarea,
 .required {
 	font-family: 'Nunito', sans-serif;
+    color: #757575;
 }
 
 /* Placeholder text color -- selectors need to be separate to work. */
@@ -106,4 +107,20 @@ input[type="submit"][disabled]:focus,
 .widecolumn label,
 .widecolumn .mu_register label {
 	font-family: 'Nunito', sans-serif;
+}
+/*global element styles*/
+.site-branding .site-title a {
+    color: #EF6C00;
+}
+.site-description {
+    color: #FFAB40;
+}
+.entry-title a {
+    color: #616161;
+}
+.entry-footer a {
+    color: #757575;
+}
+.search-submit {
+    background: #33691E;
 }
