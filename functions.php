@@ -19,3 +19,11 @@ function twentysixteen_fonts_url() {
     $fonts_url = 'https://fonts.googleapis.com/css?family=Gayathri|Nunito|Oswald&display=swap';
 	return $fonts_url;
 }
+
+function webdev_cat_styles() {
+    if (has_category('web')) {
+        wp_register_style('webdev_stylesheet', get_stylesheet_directory_uri() . '/css/webdev-styles.css');
+        wp_enqueue_style('webdev_stylesheet');
+        }
+    }
+    add_action( 'wp_enqueue_scripts', 'webdev_cat_styles' ); 
