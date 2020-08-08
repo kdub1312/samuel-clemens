@@ -16,6 +16,9 @@
     padding-top: 1.75em;
 }
 body { background: #f0f0f0 !important; }
+.entry-title a {
+    text-decoration: underline;
+}
 button, button[disabled]:hover, button[disabled]:focus, input[type="button"], input[type="button"][disabled]:hover, input[type="button"][disabled]:focus, input[type="reset"], input[type="reset"][disabled]:hover, input[type="reset"][disabled]:focus, input[type="submit"], input[type="submit"][disabled]:hover, input[type="submit"][disabled]:focus {
     background: #2876A1;
 }
