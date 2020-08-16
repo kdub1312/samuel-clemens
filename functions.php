@@ -7,7 +7,7 @@ function my_theme_enqueue_styles() {
  
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style',
-        get_stylesheet_directory_uri() . '/style.css',
+        get_stylesheet_directory_uri() . '/css/output/output.css',
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
@@ -22,7 +22,7 @@ function twentysixteen_fonts_url() {
 
 function webdev_cat_styles() {
     if (has_category('web')) {
-        wp_register_style('webdev_stylesheet', get_stylesheet_directory_uri() . '/css/webdev-styles.css');
+        wp_register_style('webdev_stylesheet', get_stylesheet_directory_uri() . '/css/output.css');
         wp_enqueue_style('webdev_stylesheet');
         }
     }
