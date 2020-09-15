@@ -1,0 +1,94 @@
+/* 
+Typography:
+Increase default font size to 18px.
+Change main fonts to Roboto Slab and Playfair Display.
+*/
+
+body,
+button,
+input,
+select,
+textarea {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.75;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.required {
+	font-family: 'Nunito', sans-serif;
+    color: #757575;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+	font-family: 'Nunito', sans-serif;
+}
+:-moz-placeholder {
+	font-family: 'Nunito', sans-serif;
+}
+:-ms-input-placeholder {
+	font-family: 'Nunito', sans-serif;
+}
+button,
+button[disabled]:hover,
+button[disabled]:focus,
+input[type="button"],
+input[type="button"][disabled]:hover,
+input[type="button"][disabled]:focus,
+input[type="reset"],
+input[type="reset"][disabled]:hover,
+input[type="reset"][disabled]:focus,
+input[type="submit"],
+input[type="submit"][disabled]:hover,
+input[type="submit"][disabled]:focus,
+.main-navigation ,
+.post-navigation,
+.post-navigation .post-title,
+.pagination,
+.image-navigation,
+.comment-navigation,
+.site .skip-link,
+.widget .widget-title,
+.widget_recent_entries .post-date,
+.widget_rss .rss-date,
+.widget_rss cite,
+.tagcloud a,
+.site-title,
+.entry-title,
+.entry-footer,
+.sticky-post,
+.page-title,
+.page-links,
+.comments-title,
+.comment-reply-title,
+.comment-metadata,
+.pingback .edit-link,
+.comment-reply-link,
+.comment-form label,
+.no-comments,
+.site-footer .site-title:after,
+.widecolumn label,
+.widecolumn .mu_register label {
+	font-family: 'Nunito', sans-serif;
+}
+/*global element styles*/
+.site-branding .site-title a {
+    color: #EF6C00;
+}
+.site-description {
+    color: #FFAB40;
+}
+.entry-title a {
+    color: #616161;
+}
+.entry-footer a {
+    color: #757575;
+}
+.search-submit {
+    background: #CCFF90;
+}
