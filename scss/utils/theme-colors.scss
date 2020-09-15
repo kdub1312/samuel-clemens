@@ -12,9 +12,6 @@
             a {
                 color: #fff;
                 text-decoration: overline;
-                @media #{$mobile} {
-                    color: blue;
-                } 
             }
         }
     }
