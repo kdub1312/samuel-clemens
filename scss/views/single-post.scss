@@ -1,0 +1,11 @@
+#comment {
+    height: 90px;
+    max-height: 273px;
+    position: relative;
+    top: 0;
+    transition: height .1s ease;
+
+    &:focus {
+        height: 273px;
+    }
+}
