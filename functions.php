@@ -32,3 +32,27 @@ function webdev_cat_styles() {
         }
     }
     add_action( 'wp_enqueue_scripts', 'webdev_cat_styles' ); 
+
+    function bootstrapstarter_enqueue_styles() {
+        wp_register_style('bootstrap', get_stylesheet_directory_uri() . '/node_modules/bootstrap/dist/css/bootstrap.min.css' );
+        $dependencies = array('bootstrap');
+        wp_enqueue_style( 'bootstrapstarter-style', get_stylesheet_uri(), $dependencies ); 
+    }
+    
+    function bootstrapstarter_enqueue_scripts() {
+        $dependencies = array('jquery');
+        wp_enqueue_script('bootstrap', get_stylesheet_directory_uri().'/node_modules/bootstrap/dist/js/bootstrap.min.js', $dependencies, '3.3.6', true );
+    }
+    
+    add_action( 'wp_enqueue_scripts', 'bootstrapstarter_enqueue_styles' );
+    add_action( 'wp_enqueue_scripts', 'bootstrapstarter_enqueue_scripts' );
+
+    //Page Slug Body Class
+    function add_slug_body_class( $classes ) {
+        global $post;
+        if ( isset( $post ) ) {
+        $classes[] = $post->post_type . '-' . $post->post_name;
+        }
+        return $classes;
+    }
+        add_filter( 'body_class', 'add_slug_body_class' );
