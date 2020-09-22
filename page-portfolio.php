@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
+<div>
+	<main role="main">
         <h1>loop starts here.</h1>
 		<?php
 		// Start the loop.
