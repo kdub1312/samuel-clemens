@@ -2,7 +2,6 @@ body.page-portfolio {
     &:before,
     &:after {
         background: none;
-
     }
     #masthead {
         display: none;
@@ -16,6 +15,7 @@ body.page-portfolio {
         color: #fff;
         padding: 7px;
         height: 100vh;
+        font-family: 'Boogaloo-Regular';
     }
     .site-footer {
         display: none;
