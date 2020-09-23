@@ -3,6 +3,10 @@ Typography:
 Increase default font size to 18px.
 Change main fonts to Roboto Slab and Playfair Display.
 */
+@font-face {
+    font-family: 'Boogaloo-Regular';
+    src: url('../../fonts/Boogaloo/Boogaloo-Regular.ttf')  format('truetype'); 
+  }
 
 body,
 button,

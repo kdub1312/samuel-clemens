@@ -1,0 +1,23 @@
+body.page-portfolio {
+    &:before,
+    &:after {
+        background: none;
+    }
+    #masthead {
+        display: none;
+    }
+   .site {
+    
+   }
+    .site-content {
+        padding: 0;
+        background-color: #1E88E5;
+        color: #fff;
+        padding: 7px;
+        height: 100vh;
+        font-family: 'Boogaloo-Regular';
+    }
+    .site-footer {
+        display: none;
+    }
+}

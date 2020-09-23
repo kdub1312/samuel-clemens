@@ -10,11 +10,7 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twentysixteenchild-ad
 */
-.widget {
-    border-top: 4px solid #f0f0f0;
-    margin-bottom: 3.5em;
-    padding-top: 1.75em;
-}
+
 body { background: #f0f0f0 !important; }
 .entry-title a {
     text-decoration: underline;
