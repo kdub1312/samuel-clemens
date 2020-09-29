@@ -1,0 +1,32 @@
+ul {
+    #recent-posts-2 & {
+        list-style-type: none;
+        li {
+            background: #F4F4F4;
+            border-radius: 3px;
+            margin-bottom: 3px;
+            padding: 3px 6px;
+            height: 48px;
+        }
+    }
+
+}
+
+#secondary {
+    #recent-posts-2 {
+        ul {
+            li {
+                color: #fff;
+                background-color: #424242;
+                transition: transform .2s ease;
+
+                &:hover {
+                    transform: scale(1.5);
+                }
+            }
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
